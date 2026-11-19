@@ -29,7 +29,6 @@ app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
-
 async function startServer() {
   try {
     await connectToMongoDB();
